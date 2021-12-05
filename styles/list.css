@@ -1,0 +1,172 @@
+.hero-section {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    width: 92%;
+    max-width: 165rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.hero-section__box {
+    margin-bottom: 4rem;
+}
+
+.hero-section__search > .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.form__field {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.hero-section__search > .form label {
+    position: absolute;
+    left: -9999px;
+}
+.form__label, .form__field > label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #737373;
+}
+.hero-section__search > .form input.input--text {
+    width: 50rem;
+}
+input.input[type='text'], input.input[type='email'], input.input[type='password'], input.input[type='number'], select.input, textarea.input {
+    min-width: 24rem;
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #e5e7eb;
+    transition: all 0.3s ease-in-out;
+    background-color: #f8fafd;
+}
+
+
+.form {
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background-color: #e5e7eb;
+    font-weight: 500;
+    color: #2d2d39;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.6rem;
+    outline-width: 0;
+    outline-color: transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn--sub {
+    background-color: #51546e;
+    color: white;
+}
+
+.btn--lg {
+    font-size: 1.8rem;
+    padding: 1.2rem 4.5rem;
+}
+
+
+.grid_three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    place-items: center;
+    height: 500px;
+}
+
+.card_dog{
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    overflow: hidden;
+}
+.card_dog >img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card_dog > *:not(img){
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.dogs_list{
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+.pagination a {
+    margin-top: 10rem;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#rangeValue {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 6em;
+  color: #999;
+  font-weight: 400;
+}
+.range {
+  width: 400px;
+  height: 15px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #51546e;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #51546e;
+}
+
+.temperament{
+    display: inline-block;
+    /*width: 20%;*/
+}

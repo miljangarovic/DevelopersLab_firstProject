@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+
+     <!--Facebook plugin-->
+     <div id="fb-root"></div>
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+     <!--End facebook plugin-->
+     <div class="wrapper">
+         <header>
+             <nav class="containerwidth">
+                 <p>Dogs</p>
+                 <button><i class="arrow down"></i></button>
+                 <ul class="nav">
+                     <li class="active"><a href="index.html">Home</a></li>
+                     <li>
+                         <a href="pages/filter.html">Filter</a>
+                         <ul class="sub-menu">
+                             
+                         </ul>
+                     </li>
+                     <li><a href="pages/contact.html">Contact</a></li>
+                     <li><a href="pages/aboutus.html">About us</a></li>
+                 </ul>
+             </nav>
+         </header>
+ 
+         <div class="sliding containerwidth">
+             <div class="recent">
+                 <div class="centerFlex">
+                     <div class="box" id="left">
+                         <button><i class="arrow left"></i></button>
+                     </div>
+                 </div>
+                 
+                 <!-- slider -->
+                 <div class="animals">
+                     
+                 </div>
+ 
+                 <div class="centerFlex">
+                     <div class="box" id="right">
+                         <button><i class="arrow right"></i></button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+ 
+         <div class="topRated">
+             <h1>Top rated</h1>
+             <div class="row">
+               </div>
+
+             <div class="loadMore">
+                 <button>Load more</button>
+             </div>
+         </div>
+ 
+         <aside>
+             <div class="best">
+                 <h1>Best</h1>
+                 <div class="featured">
+                     
+                 </div>
+             </div>
+
+            <div class="fbFeed">
+                <div class="fbfullwidth">
+                    <div class="fb-page" data-href="https://www.facebook.com/lifewithdogs" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/lifewithdogs" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/lifewithdogs">
+                            </a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+             
+
+         </aside>
+         
+ 
+         <footer>
+           
+           
+            
+            <div class="containerwidth">
+                <h1><span></span> <span>Animals</span></h1>
+                <ul class="footernav">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="pages/filter.html" target="_blank">Custom</a></li>
+                    <li><a href="pages/contact.html" target="_blank">Contact</a></li>
+                    <li><a href="pages/aboutus.html" target="_blank">About us</a></li>
+                </ul>
+            </div>
+         </footer>
+     </div>
+
+
+     <!-- MODAL WINDOW-->
+    <div class="modal">
+        <div class="modalWindow">
+            <div class="exit">+</div>
+            <div class="imgContainer">
+                
+                 <div class="bestm">
+                    </div>
+            </div>
+            <div class="content">
+                <div class="holder">
+                    
+                    <span id="name"></span><br>
+                    <span id="bread"></span><br>
+                    <span id="temp"></span><br>
+                    <span id="origin"></span><br>
+                    <span id="weight"></span><br>
+                    <span id="height"></span><br>
+                    <span id="group"></span><br>
+                    <span id="life"></span><br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+     
+ 
+    <script src="script.js"></script>
+</body>
+</html>
